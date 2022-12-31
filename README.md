@@ -1,5 +1,12 @@
 # Antibody_Efficiency_Prediction
 
+## Input Format
+The concatenated amino acid sequence of CDR of the antibody and epitope of the Antigen
+### Eg
+Amino acid sequence of CDR of Antibody = ALALHFYPGVYDDYGPPIARGVN
+Amino acid sequecne of epitope of the Antigen = TLDSWK
+Valid input = ALALHFYPGVYDDYGPPIARGVNTLDSWK
+
 ## Table
 | Method      | Accuracy |
 | --------- | -----|
