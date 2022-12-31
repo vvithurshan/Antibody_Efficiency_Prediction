@@ -21,6 +21,9 @@ Valid input = ALALHFYPGVYDDYGPPIARGVNTLDSWK
 | **Prot bert**      |    84.42 % |
 | **prot_bert_bfd** |     83.60 %  |
 
+## Conclusion
+Based on the results, it seems SVM with BLOSUM encoding method outperfomed other methods.
+
 
 ## References
 - https://github.com/agemagician/ProtTrans/blob/master/Fine-Tuning/ProtBert_BFD_FineTuning_MS.ipynb
