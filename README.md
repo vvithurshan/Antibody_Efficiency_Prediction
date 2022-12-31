@@ -1,4 +1,4 @@
-# Antibody_Efficiency_Prediction
+# Antibody Efficiency Prediction with Amino Acid sequence.
 # Description
 
 ## Input Format
