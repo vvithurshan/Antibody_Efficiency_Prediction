@@ -3,7 +3,7 @@
 ## Table
 | Method      | Accuracy |
 | --------- | -----|
-|** Logistic Regression**  | - |
+|**Logistic Regression**  | - |
 |- One hot Encoding | 86.37 %|
 |- Blosum | 86.92 % |
 |- NLF | 86.92 % |
