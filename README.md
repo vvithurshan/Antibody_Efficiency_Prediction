@@ -19,11 +19,21 @@ Valid input = ALALHFYPGVYDDYGPPIARGVNTLDSWK
 |- One hot Encoding | 86.10 %|
 |- Blosum | 87.19 % |
 |- NLF | 86.10 %|
-| **Prot bert**      |    84.42 % |
-| **prot_bert_bfd** |     83.60 %  |
-
-## Conclusion
-Based on the results, it seems SVM with BLOSUM encoding method outperfomed other methods.
+| **ProtBert**      |    - |
+| -prot_bert tokenizer| 84.42 %
+| **ProtBert_bfd** |     -  |
+|-Prot_bert_bfd tokenizer| 83.60 %
+| **ProtCNN** | -|
+|- One hot Encoding|88 %|
+|- Blosum |87 %|
+|- NLP| 87 %|
+|- BeplerEmbedder| 87 %|
+|- CPCProtEmbedder |76 %|
+|- FastTextEmbedder | 64 %|
+|- GloveEmbedder | 64 %|
+|- PLUSRNNEmbedder | 64 %|
+| - ProtTransBertBFDEmbedder| 83 %|
+| - Word2VecEmbedder| 64 %|
 
 
 ## References
