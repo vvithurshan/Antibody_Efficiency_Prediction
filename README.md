@@ -1,5 +1,6 @@
 # Antibody Efficiency Prediction with Amino Acid sequence.
 # Description
+It used different methods such as logistic regression, SVM, ProtBert and ProtCNN with various encodings and embeddings. It also provides a table of accuracy scores for each method. <br >
 
 ## Input Format
 The concatenated amino acid sequence of CDR of the antibody and epitope of the Antigen
@@ -7,6 +8,14 @@ The concatenated amino acid sequence of CDR of the antibody and epitope of the A
 Amino acid sequence of CDR of Antibody = ALALHFYPGVYDDYGPPIARGVN          
 Amino acid sequecne of epitope of the Antigen = TLDSWK         
 Valid input = ALALHFYPGVYDDYGPPIARGVNTLDSWK
+
+The concatenated amino acid sequence of CDR of the antibody and epitope of the antigen refers to the combination of the amino acid sequences of the complementarity-determining regions (CDRs) of the antibody and the epitope of the antigen they bind to. <br />
+
+The CDRs are the most variable regions of an antibody, and they are responsible for the specificity of the antibody-antigen interaction. The epitope is the specific part of the antigen that the antibody recognizes and binds to. <br />
+
+To create the concatenated amino acid sequence, you need to take the amino acid sequence of the CDR of the antibody and append it to the amino acid sequence of the epitope of the antigen. The resulting sequence should be a single string of amino acid residues with no spaces or separators between them. <br />
+
+For example, if the amino acid sequence of the CDR of the antibody is "ALALHFYPGVYDDYGPPIARGVN" and the amino acid sequence of the epitope of the antigen is "TLDSWK", then the valid concatenated amino acid sequence would be "ALALHFYPGVYDDYGPPIARGVNTLDSWK". <br />
 
 ## Table
 | Method      | Accuracy |
